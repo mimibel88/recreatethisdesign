@@ -37,6 +37,21 @@ nav a {
     font-weight: bold;
 }
 
+.pexels-image {
+    display: block;
+    width: 500px;
+    height: 600px;
+    margin: 2rem auto;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .pexels-image {
+        width: 90%;
+        height: auto;
+    }
+}
+
 .button1 {
     display: flex;
     flex-direction: column;
