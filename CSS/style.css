@@ -1,73 +1,73 @@
 body {
-    background-color: #0e0e0e;
-    font-family: sans-serif;
+  background-color: #0e0e0e;
+  font-family: sans-serif;
 }
 
 .blank {
-    /*   width: 900px; */
-    /*   height: 420px; */
-    margin: 40px auto;
-    border-radius: 10px;
+  /*   width: 900px; */
+  /*   height: 420px; */
+  margin: 40px auto;
+  border-radius: 10px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    color: #f0b6af;
-    font-weight: bold;
+  color: #f0b6af;
+  font-weight: bold;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 nav a {
-    color: #f3b8b1;
-    text-decoration: none;
-    font-weight: bold;
+  color: #f3b8b1;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .pexels-image {
-    display: block;
-    width: 500px;
-    height: 600px;
-    margin: 2rem auto;
-    object-fit: cover;
+  display: block;
+  width: 500px;
+  height: 600px;
+  margin: 2rem auto;
+  object-fit: cover;
 }
 
 @media (max-width: 600px) {
-    .pexels-image {
-        width: 90%;
-        height: auto;
-    }
+  .pexels-image {
+    width: 90%;
+    height: auto;
+  }
 }
 
 .button1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 10rem;
 }
 
 .btn1,
 .btn2 {
-    background-color: #fbd450;
-    color: black;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 1rem 1.5rem;
-    border: none;
-    border-radius: 8px;
+  background-color: #fbd450;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 8px;
 }
